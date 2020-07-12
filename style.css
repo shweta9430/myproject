@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background-color: black;
+  overflow: hidden;
+position:fixed;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 0px 10px 0px;
+  margin-left: 90px;
+}
+
+.navbar a:hover {
+  background-color: rgb(73, 73, 68);
+}
+
+.active {
+  background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+#second{
+background-color: blue;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding:4em 3em 1em 4em;
+color:white;
+
+
+}
+#third{
+
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+padding:10px;
+color:black;
+}
+.responsive {
+max-width: 100%;
+height: auto;
+}
+.fas {
+  font-size: 20px;
+  margin-left: 6em;
+  color: grey;
+  float: left;
+  padding: 10px 0px 10px 0px;
+
+}
+
+h1 {
+  text-align: center;
+  font-size: 55px;
+  margin-top:35px;
+  padding-bottom: 0px;;
+}
+
+.fun {
+  text-align: center;
+  font-size: 25px;
+  padding:0px;
+}
+
+#arial {
+  color: blue;
+  text-align: center;
+  font-size: 20px; 
+}
+div.gallery {
+margin:20px 20px 40px 10px;
+  
+  float: left;
+  width: 45em;
+  height: 37em;
+  /*box height*/
+}
+div.gallery img {
+  width: 100%;
+  height: 450px;
+  /* img height */
+}
+h3.desc {
+  padding: 0px;
+  text-align: center;
+  font-size: 35px;
+}
+#hat{
+background-color:whitesmoke;
+}
+
+
+table ,td,th{  
+text-align: left;
+padding-left: 20px;
+margin-left:19em;
+margin-right:19em;
+border-collapse: collapse;
+font-style:normal;
+}
+
+td {
+
+color:grey;
+}
+
+
+
+.den{
+color:grey;
+margin-left:320px;
+padding-bottom: 10px;
+}
+.pea{
+color:blue;  
+}
+hr {
+  margin: 0rem 20em 0em 20em;
+  padding: 0px;
+}
+p.ikon {
+ margin-left: 19em;
+  padding: 10px;
+}
+.pot{
+padding:10px;
+  color:grey;
+}
